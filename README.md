@@ -21,6 +21,7 @@ This script will work on any system (Windows, macOS, Linux) as long as the targe
 ✅ Python 3 and the cryptography module are installed on the system.
 
 
+
 🌟 Keylogger inside a Calculator Script
 
 This Python script contains two main components:
