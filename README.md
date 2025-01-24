@@ -1,6 +1,6 @@
-# Simple-Python-Ransomware-Script
+# Simple-Python-Malware-Scripts
 
-🌟 This ransomware simulation script encrypts files in a specified folder and decrypts them only if the correct password is provided.
+🌟 Ransomware Simulation Script
 
 How It Works:
 
@@ -20,4 +20,15 @@ This script will work on any system (Windows, macOS, Linux) as long as the targe
 
 ✅ Python 3 and the cryptography module are installed on the system.
 
-❗️Note: This script is intended only for educational purposes and is just simulating the attack, it won't fork for malicious purposes.
+
+🌟 Keylogger inside a Calculator Script
+
+This Python script contains two main components:
+
+Keylogger: A background keylogger that captures key presses and outputs them to the terminal. It's run using the pynput library.
+
+Simple Calculator: A basic calculator that evaluates arithmetic expressions input by the user. It can handle basic operations like addition, subtraction, multiplication, and division.
+
+The keylogger runs in the background while the calculator is active, capturing all key presses as the user interacts with the calculator.
+
+❗️Note: These scripts are intended only for educational purposes and are just simulating the attacks. They won't fork for malicious purposes.
