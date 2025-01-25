@@ -27,6 +27,8 @@ Simple Calculator: A basic calculator that evaluates arithmetic expressions inpu
 
 The keylogger runs in the background while the calculator is active, capturing all key presses as the user interacts with the calculator.
 
+Garbage Data Version: The script has been obfuscated with unnecessary variables, misleading function names, and random garbage data to make it harder to read or understand.
+
 
 🌟 Python Reverse Shell (RAT)
 
