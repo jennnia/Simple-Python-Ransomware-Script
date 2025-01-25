@@ -6,11 +6,11 @@ How It Works:
 
 Key Generation: Creates and saves an encryption key (encryption_key.key).
 
-File Encryption: Encrypts all files in the target folder using Fernet encryption.
-
 Key Transfer: Sends the key to the attacker cotrolled server.
 
-Key Deletion: Deletes the encryption key on the targett system.
+File Encryption: Encrypts all files in the target folder using Fernet encryption.
+
+Key Deletion: Deletes the encryption key on the target system.
 
 File Decryption: Restores the original files if the provided key is correct.
 
@@ -43,4 +43,4 @@ Simple Command Execution: The server can send arbitrary commands to be executed 
 Base64 Encoded & Obfuscated Version: Includes an obfuscated, base64-encoded variant for testing and evading detection.
 
 
-❗️Note: These scripts are intended only for educational purposes and are just simulating the attacks. They won't fork for malicious purposes.
+❗️Note: These scripts are intended only for educational purposes to understand how malware works. Don't misuse them for malicious purposes.
