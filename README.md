@@ -2,7 +2,7 @@
 
 🌟 Ransomware Simulation Script
 
-How It Works:
+Features:
 
 Key Generation: Creates and saves an encryption key (encryption_key.key).
 
@@ -14,20 +14,22 @@ Key Deletion: Deletes the encryption key on the target system.
 
 File Decryption: Restores the original files if the provided key is correct.
 
+Obfuscated Version: Includes an obfuscated variant for testing and evading detection.
+
 Use Case: Simulates ransomware behavior for educational purposes.
 
 
-🌟 Keylogger inside a Calculator Script
+🌟 Keylogger with Log Transmission and Concurrent Heart Display
 
-This Python script contains two main components:
+This Python-based keylogger captures keystrokes and periodically sends the logs to a remote server. It runs concurrently with a program that displays hearts in the terminal as a fun touch. The keylogger uses the pynput library to capture keyboard inputs and sends logs every 200 seconds to a specified server.
 
-Keylogger: A background keylogger that captures key presses and outputs them to the terminal. It's run using the pynput library.
+Features:
 
-Simple Calculator: A basic calculator that evaluates arithmetic expressions input by the user. It can handle basic operations like addition, subtraction, multiplication, and division.
+Captures and logs keystrokes
 
-The keylogger runs in the background while the calculator is active, capturing all key presses as the user interacts with the calculator.
+Sends logs to a remote server every 200 seconds
 
-Garbage Data Version: The script has been obfuscated with unnecessary variables, misleading function names, and random garbage data to make it harder to read or understand.
+Displays ASCII art and concurrently prints hearts in the terminal
 
 
 🌟 Python Reverse Shell (RAT)
@@ -42,7 +44,7 @@ Client: Connects back to the server, executes received commands, and returns the
 
 Simple Command Execution: The server can send arbitrary commands to be executed on the client machine, with results returned to the attacker.
 
-Base64 Encoded & Obfuscated Version: Includes an obfuscated, base64-encoded variant for testing and evading detection.
+Base64 & Garbage Data Version: Client side code has been obfuscated with unnecessary variables, misleading function names, and random garbage data to make it harder to detect while Server side code was encoded using base64 encoding.
 
 
 ❗️Note: These scripts are intended only for educational purposes to understand how malware works. Don't misuse them for malicious purposes.
